@@ -3,6 +3,7 @@
 
    
 @section('content')
+
 <link href="{{ asset('css/styles.css') }}" rel="stylesheet"> 
 <div class="container">
     <div class="d-flex justify-content-center h-100">
@@ -95,4 +96,3 @@
     </div>
 </div>
 @endsection
-
