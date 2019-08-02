@@ -9,8 +9,6 @@
         <div class="col-md-12">
             
                 
- 
-                
                     @if(auth()->user()->is_admin == 1)
                     <link rel="stylesheet" type="text/css" href="{{asset('css/styles1.css')}}">
                     
@@ -191,25 +189,37 @@
                             <a href="http://"></a>
                             </div>
 
-                                
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
                     @else
-                    <div class="panel-heading">Normal User</div>
+
+                    <div class="row">
+                    
+                    <div class="col-md-3"></div>
+                    
+                   
+                       
+                        <div class="col-md-6" align="center">
+                            <h1>Escolha uma mesa</h1>
+
+                            <form class="styles">
+                                <div class="form-group">
+                                
+                                <input type="text" class="form-control"  style="width:250px;font-size: 13px"  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Mesa" >
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form> 
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+
+                        
+                      
+                
+                
+                    
                     @endif
                 
             
